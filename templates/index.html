@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LLM Q&A System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>LLM Question & Answer System</h1>
+
+    <form method="POST">
+        <label>Enter your question:</label>
+        <textarea name="question" required></textarea>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if processed %}
+    <div class="card">
+        <h3>Processed Question</h3>
+        <p>{{ processed }}</p>
+    </div>
+    {% endif %}
+
+    {% if answer %}
+   <div class="card answer">
+        <h3>LLM Answer</h3>
+        <pre>{{ answer }}</pre>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
