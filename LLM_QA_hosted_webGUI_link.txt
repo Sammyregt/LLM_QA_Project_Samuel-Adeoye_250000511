@@ -1,0 +1,4 @@
+- Name ----------------------------- Adeoye Samuel Victor
+- Matric number -------------------- 520000511
+- Live URL of hosted application --- https://llm-qa-project-samuel-adeoye-250000-tau.vercel.app/
+- GitHub repository link ----------- https://github.com/Sammyregt/LLM_QA_Project_Samuel-Adeoye_250000511
