@@ -64,4 +64,4 @@ python app.py
 ```
 or use the link below to test the Project
 
-[LLM_QA_hosted_webGUI]()
+[LLM_QA_hosted_webGUI](https://llm-qa-project-samuel-adeoye-250000-tau.vercel.app/)
