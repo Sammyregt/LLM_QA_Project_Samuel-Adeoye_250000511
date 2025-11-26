@@ -50,5 +50,5 @@ def index():
         answer = ask_llm(processed_question)
     return render_template("index.html", answer=answer, processed_question=processed_question)
 
- if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#    app.run(debug=True)
